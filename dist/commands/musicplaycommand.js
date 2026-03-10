@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 class MusicPlayCommand {
     musicPlayer;
-    nameCommand = '3';
+    buttonId = '3';
     constructor(musicPlayer) {
         this.musicPlayer = musicPlayer;
     }

@@ -3,8 +3,8 @@ import { ICommand } from '../typings';
 export default class RemoteControl {
   private commands: Map<string, ICommand> = new Map();
 
-  setCommand(buttonId: string, command: ICommand) {
-    this.commands.set(command.nameCommand, command);
+  setCommand(command: ICommand) {
+    this.commands.set(command.buttonId, command);
   }
 
   pressButton(buttonId: string) {

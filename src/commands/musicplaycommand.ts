@@ -2,7 +2,7 @@ import { ICommand } from '../typings';
 import MusicPlayer from '../structures/musicplayer';
 
 export default class MusicPlayCommand implements ICommand {
-  public nameCommand = '3';
+  public buttonId = '3';
 
   public constructor(private musicPlayer: MusicPlayer) {}
 

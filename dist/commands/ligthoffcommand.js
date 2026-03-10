@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 class LightOffCommand {
     light;
-    nameCommand = '2';
+    buttonId = '2';
     constructor(light) {
         this.light = light;
     }
